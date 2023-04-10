@@ -11,7 +11,7 @@ def home():
 #         print 
 #         count+=1
 #         time.sleep(1)
-    count+=1
+#     count+=1
     return ('Hello, World! ',count)
 
 @app.route('/about')
