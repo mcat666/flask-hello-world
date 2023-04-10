@@ -10,7 +10,7 @@ def home():
 #         count+=1
 #         time.sleep(1)
         count+=1
-    return ('Hello, World! ', count)
+    return ('Hello, World! count = ', count)
 
 @app.route('/about')
 def about():
